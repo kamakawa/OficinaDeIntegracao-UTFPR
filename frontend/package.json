@@ -1,0 +1,15 @@
+{
+  "name": "physica-engine-core",
+  "version": "1.0.0",
+  "description": "C++ physics engine via N-API",
+  "main": "physicsAddon.js",
+  "scripts": {
+    "build":   "node-gyp configure && node-gyp build",
+    "rebuild": "node-gyp rebuild",
+    "clean":   "node-gyp clean"
+  },
+  "dependencies": {
+    "node-addon-api": "^8.0.0"
+  },
+  "gypfile": true
+}
